@@ -1,0 +1,489 @@
+.b {
+  border: 1px solid pink;
+}
+.b1 {
+  border: 1px solid transparent;
+}
+.b2 {
+  border: 1px solid black;
+}
+.b3 {
+  border: 2px solid black;
+}
+.b4 {
+  border: 1px solid rgb(180, 180, 180);
+}
+.b5 {
+  border: 1px solid rgb(122, 122, 122);
+}
+.b6 {
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+.w-100 {
+  width: 100%;
+}
+.w-99-9 {
+  width: 99.9%;
+}
+.w-99 {
+  width: 99%;
+}
+.w-85 {
+  width: 85%;
+}
+.w-81 {
+  width: 81%;
+}
+.w-80 {
+  width: 80%;
+}
+.w-76 {
+  width: 76%;
+}
+.w-70 {
+  width: 70%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-48 {
+  width: 48%;
+}
+.w-44 {
+  width: 44%;
+}
+.w-40-7 {
+  width: 40.7%;
+}
+.w-35 {
+  width: 35%;
+}
+.w-33 {
+  width: 33.3%;
+}
+.w-32 {
+  width: 32%;
+}
+.w-29 {
+  width: 29%;
+}
+.w-26 {
+  width: 26%;
+}
+.w-20-5 {
+  width: 20.5%;
+}
+.w-19-2 {
+  width: 19.2%;
+}
+.w-9-9 {
+  width: 9.9%;
+}
+.w-4 {
+  width: 4%;
+}
+.w-0 {
+  width: 0%;
+}
+
+.hp-1160 {
+  height: 1160px;
+}
+.hp-1158 {
+  height: 1158px;
+}
+.hp-949 {
+  height: 949px;
+}
+.hp-860 {
+  height: 860px;
+}
+.hp-853 {
+  height: 853px;
+}
+.hp-807 {
+  height: 807px;
+}
+.hp-796 {
+  height: 796px;
+}
+.hp-780 {
+  height: 780px;
+}
+.hp-707 {
+  height: 707px;
+}
+.hp-684 {
+  height: 684px;
+}
+.hp-600 {
+  height: 600px;
+}
+.hp-405 {
+  height: 405px;
+}
+.hp-356 {
+  height: 356px;
+}
+.hp-351 {
+  height: 351px;
+}
+.hp-320 {
+  height: 320px;
+}
+.hp-279 {
+  height: 279px;
+}
+.hp-270 {
+  height: 270px;
+}
+.hp-265 {
+  height: 265px;
+}
+.hp-238 {
+  height: 238px;
+}
+.hp-227 {
+  height: 227px;
+}
+.hp-130 {
+  height: 130px;
+}
+.hp-120 {
+  height: 120px;
+}
+.hp-103 {
+  height: 103px;
+}
+.hp-98 {
+  height: 98px;
+}
+.hp-90 {
+  height: 90px;
+}
+.hp-89 {
+  height: 89px;
+}
+.hp-79 {
+  height: 79px;
+}
+.hp-69 {
+  height: 69px;
+}
+.hp-62 {
+  height: 62px;
+}
+.hp-50 {
+  height: 50px;
+}
+.hp-51 {
+  height: 51px;
+}
+.hp-46 {
+  height: 46px;
+}
+.hp-45 {
+  height: 45px;
+}
+.hp-40 {
+  height: 40px;
+}
+.hp-11 {
+  height: 11px;
+}
+
+.wp-357 {
+  width: 357px;
+}
+.wp-279 {
+  width: 279px;
+}
+.wp-67 {
+  width: 67px;
+}
+.wp-11 {
+  width: 11px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.mt-49 {
+  margin-top: 49px;
+}
+.mt-48 {
+  margin-top: 48px;
+}
+.mt-36 {
+  margin-top: 36px;
+}
+.mt-31 {
+  margin-top: 31px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-19 {
+  margin-top: 19px;
+}
+.mt-27 {
+  margin-top: 27px;
+}
+.mt-21 {
+  margin-top: 21px;
+}
+.mt-17 {
+  margin-top: 17px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mt-13 {
+  margin-top: 13px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-9 {
+  margin-top: 9px;
+}
+.mt-7 {
+  margin-top: 7px;
+}
+.mt-6 {
+  margin-top: 6px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+.mr-11 {
+  margin-right: 11px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mlr-at {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.ta-c {
+  text-align: center;
+}
+
+.img1 {
+  background-image: url(./27-img-1.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.img2 {
+  background-image: url(./27-img-2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img3 {
+  background-image: url(./27-img-3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img4 {
+  background-image: url(./27-img-4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img5 {
+  background-image: url(./27-img-5.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img6 {
+  background-image: url(./27-img-6.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img7 {
+  background-image: url(./27-img-7.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.img8 {
+  background-image: url(./27-img-7.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img9 {
+  background-image: url(./27-img-8.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img10 {
+  background-image: url(./27-img-9.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.icon1 {
+  background-image: url(./27-icon-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.icon2 {
+  background-image: url(./27-icon-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.icon3 {
+  background-image: url(./27-icon-3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bc-1 {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.bc-2 {
+  background-color: #333333;
+}
+.bc-black {
+  background-color: black;
+}
+
+.tc-white {
+  color: white;
+}
+.tc-b {
+  color: black;
+}
+.tc-bl {
+  color: rgb(7, 107, 221);
+}
+.tc-lbl {
+  color: rgb(164, 200, 241);
+}
+.tc-gray {
+  color: rgb(128, 127, 127);
+}
+
+.fs-1-9r {
+  font-size: 1.9rem;
+}
+.fs-1-5r {
+  font-size: 1.5rem;
+}
+.fs-1-6r {
+  font-size: 1.6rem;
+}
+.fs-3r {
+  font-size: 3.2rem;
+}
+.fs-17 {
+  font-size: 17px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-13 {
+  font-size: 13px;
+}
+
+.fw {
+  font-weight: 350;
+}
+
+.pd-t35 {
+  padding-top: 35px;
+}
+.pd-t20 {
+  padding-top: 20px;
+}
+.pd-t10 {
+  padding-top: 10px;
+}
+.pd-1 {
+  padding: 12px 0px 13px 15px;
+}
+.pd-2 {
+  padding: 12px 0px 12px 15px;
+}
+.pd-3 {
+  padding: 11px 0px 12px 6px;
+}
+
+.ff-a {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.ff-i {
+  font-style: italic;
+  font-weight: 700;
+}
+.ff-sui {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.fw {
+  font-weight: 500;
+}
+
+.tc-b:hover {
+  cursor: pointer;
+}
+.d-h:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.tc-bl:hover {
+  cursor: pointer;
+}
+.tc-lbl:hover {
+  cursor: pointer;
+  color: #9b9999;
+}
+
+.lh-1 {
+  line-height: 1;
+}
+.lh-3 {
+  line-height: 1.2;
+}
+.br-50 {
+  border-radius: 50%;
+}
+.br-2 {
+  border-radius: 2px;
+}
+.cr:hover {
+  cursor: text;
+}
