@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive img</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body {
+        background-color: black;
+        width: 100%;
+        color: white;
+        margin: 0;
+      }
+      .bgimg {
+        border: 1px solid red;
+        margin-top: 48px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 357px;
+        height: 227px;
+      }
+      .img {
+        background-image: url(./test1-img1.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .rimg {
+        width: 26%;
+        /* min-width: 150px; */
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid red;
+      }
+      .responsive {
+        width: 100%;
+        height: auto;
+        /* margin-left: auto;
+        margin-right: auto; */
+      }
+      .p1 {
+        color: antiquewhite;
+        border: 1px solid red;
+        /* font-family: "Fauna One", serif; */
+        font-family: Cinzel, serif;
+      }
+      .rp {
+        color: antiquewhite;
+        border: 1px solid red;
+        font-size: 2vw;
+        font-family: Cinzel, serif;
+      }
+      /* @media screen and (max-width: 600px) {
+        .rp {
+          font-size: 9px;
+        }
+      }
+      @media screen and (max-width: 800px) {
+        .rp {
+          font-size: 12px;
+        }
+      } */
+      /* ................................................................................................................................ */
+      .image-container {
+        background-image: url(./test1-img2.webp); /* The image used - important! */
+        background-size: cover;
+        position: relative; /* Needed to position the cutout text in the middle of the image */
+        height: 40vh; /* Some height */
+      }
+
+      .text {
+        color: black;
+        font-size: 10vw; /* Responsive font size */
+        font-weight: bold;
+        margin: 0 auto; /* Center the text container */
+        padding: 10px;
+        width: 50%;
+        text-align: center; /* Center text */
+        position: absolute; /* Position text */
+        top: 50%; /* Position text in the middle */
+        left: 50%; /* Position text in the middle */
+        transform: translate(-50%, -50%); /* Position text in the middle */
+        background-color: white;
+        color: black;
+        mix-blend-mode: screen; /* This makes the cutout text possible */
+
+        /* background-color: black;
+        color: white;
+        mix-blend-mode: multiply; */
+      }
+      /* .......................................................................................................................... */
+      .glow {
+        font-size: 80px;
+        color: #fff;
+        text-align: center;
+        /* -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate; */
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+      /* -webkit- */
+      @keyframes glow {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+            0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073,
+            0 0 70px #e60073;
+        }
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+            0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6,
+            0 0 80px #ff4da6;
+        }
+      }
+      /* ............................................................................................................................... */
+      .zoom {
+        padding: 50px;
+        background-color: green;
+        transition: transform 0.2s; /* Animation */
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+      }
+
+      .zoom:hover {
+        transform: scale(
+          1.5
+        ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
+      /* ................................................................................................................................ */
+      .exm {
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+      /* ................................................................................................................................ */
+      p {
+        color: white;
+      }
+      .arrow {
+        border: solid rgb(250, 250, 250);
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+      }
+
+      .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+      }
+
+      .left {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+      }
+
+      .up {
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+      }
+
+      .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+      }
+      /* ................................................................................................................................ */
+      /* width */
+      ::-webkit-scrollbar {
+        width: 20px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 10px;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: red;
+        border-radius: 10px;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #b30000;
+      }
+      /* ................................................................................................................................ */
+
+      [contenteditable] {
+        outline: 0px solid transparent;
+      }
+      /* ................................................................................................................................ */
+
+      .prevent-select {
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+      }
+      ::-moz-selection {
+        /* Code for Firefox */
+        color: red;
+        background: yellow;
+      }
+      ::selection {
+        color: red;
+        background: yellow;
+      }
+      /* ................................................................................................................................ */
+      ul {
+        list-style: none; /* Remove default bullets */
+      }
+
+      ul li::before {
+        content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: red; /* Change the color */
+        font-weight: bold; /* If you want it to be bold */
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        margin-left: -1em; /* Also needed for space (tweak if needed) */
+      }
+      li {
+        color: #ac0156;
+      }
+      /* ................................................................................................................................ */
+      .divider {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+      }
+
+      .divider::before,
+      .divider::after {
+        flex: 1;
+        content: "";
+        padding: 3px;
+        background-color: red;
+        margin: 5px;
+      }
+      /* ................................................................................................................................ */
+    </style>
+  </head>
+  <body>
+    <div class="bgimg img"></div>
+    <p class="p1">
+      <!-- <i class="fa-brands fa-facebook"></i> -->
+      <i class="fa-brands fa-square-instagram"></i>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, quo
+      corrupti! Odio apertotam magni facere corrupti ipsa suscipit corporis sit
+      distinctio. Fugiat possimus neque velit ut maiores modi fuga eveniet unde
+      animi laborum recusandae minus autem aspernatur vel, placeat nostrum quos
+      facere voluptatum? Quam distinctio officia vel et maiores dignissimos,
+      magnam sint ad quae facere corporis minus exercitationem maxime a
+      laudantium adipisci nemo debitis corrupti rem. Commodi, doloremque.
+    </p>
+    <!-- <div class="rimg">
+      <img src="./test1-img1.png" alt="" class="responsive" />
+    </div> -->
+    <p class="rp">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, quo
+      corrupti! Odio apertotam magni facere corrupti ipsa suscipit corporis sit
+      distinctio. Fugiat possimus neque velit ut maiores modi fuga eveniet unde
+      animi laborum recusandae minus autem aspernatur vel, placeat nostrum quos
+      facere voluptatum? Quam distinctio officia vel et maiores dignissimos,
+      magnam sint ad quae facere corporis minus exercitationem maxime a
+      laudantium adipisci nemo debitis corrupti rem. Commodi, doloremque.
+    </p>
+    <!-- ................................................................................................................ -->
+    <!-- <div class="image-container">
+      <div class="text">NATURE</div>
+    </div> -->
+    <!-- ................................................................................................................ -->
+    <h1 class="glow">SARMAD</h1>
+    <!-- <div class="zoom"></div> -->
+    <!-- ................................................................................................................ -->
+
+    <!-- <p>Right arrow: <i class="arrow right"></i></p>
+    <p>Left arrow: <i class="arrow left"></i></p>
+    <p>Up arrow: <i class="arrow up"></i></p>
+    <p>Down arrow: <i class="arrow down"></i></p> -->
+    <!-- ................................................................................................................ -->
+    <!-- <p contenteditable="true">This is an editable paragraph.</p> -->
+    <!-- ..............................................................................................................   -->
+    <!-- <p class="prevent-select">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ipsam
+      repellat unde ipsum sint odio optio eos recusandae saepe debitis, corporis
+      dolorum amet, rem blanditiis, laudantium quo rerum animi! Asperiores.
+    </p> -->
+    <!-- ................................................................................................................ -->
+    <!-- <ul>
+      <li>Adele</li>
+      <li>Agnes</li>
+      <li>Billy</li>
+      <li>Bob</li>
+    </ul> -->
+    <!-- ................................................................................................................ -->
+    <!-- <div class="divider">Lorem Ipsum</div> -->
+    <!-- ................................................................................................................ -->
+  </body>
+</html>

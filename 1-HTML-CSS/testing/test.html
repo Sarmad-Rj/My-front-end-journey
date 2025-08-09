@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>test</title>
+    <style>
+      .container {
+        background-color: aliceblue;
+        margin: 0 auto;
+        width: 400px;
+        height: 400px;
+        border: 2px #e64f4f solid;
+        position: relative;
+        z-index: 1;
+      }
+      .box {
+        width: 50px;
+        height: 50px;
+        border: 1px #ff0000 solid;
+        position: absolute;
+        right: 400px;
+        background: red;
+        /* transition: 0.5s; */
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body style="background-color: #000; z-index: 10">
+    <div style="z-index: 20; background-color: #e64f4f">
+      <section class="container">
+        <div class="box"></div>
+      </section>
+    </div>
+
+    <script>
+      const box = document.querySelector(".box");
+      const container = document.querySelector(".container");
+
+      container.addEventListener("mousemove", (e) => {
+        const x = e.clientX - container.offsetLeft;
+        const y = e.clientY - container.offsetTop;
+
+        const boxHalfWidth = box.offsetWidth / 2;
+        const boxHalfHeight = box.offsetHeight / 2;
+
+        const boxX = x - boxHalfWidth;
+        const boxY = y - boxHalfHeight;
+
+        const maxX = container.offsetWidth - box.offsetWidth;
+        const maxY = container.offsetHeight - box.offsetHeight;
+
+        const boxNewX = Math.max(0, Math.min(maxX, boxX));
+        const boxNewY = Math.max(0, Math.min(maxY, boxY));
+
+        box.style.transform = `translate(${boxNewX}px, ${boxNewY}px)`;
+      });
+    </script>
+  </body>
+</html>
