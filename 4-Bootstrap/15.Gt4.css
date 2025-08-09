@@ -1,0 +1,34 @@
+.b {
+  border: 1px solid black;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.hp-300 {
+  height: 300px;
+}
+.hp-140 {
+  height: 135px;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.ml-20 {
+  margin-left: 15px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+
+.pd {
+  padding: 5rem;
+}
+
+.mlr-at {
+  margin-left: auto;
+  margin-right: auto;
+}

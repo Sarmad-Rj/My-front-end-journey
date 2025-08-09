@@ -1,0 +1,12 @@
+.mt-50{margin-top: 50px;}
+.ml-50{margin-left: 50px;}
+
+.bc-a{background-color: aqua;}
+.bc-b{background-color: rgb(43, 255, 0);}
+.bc-c{background-color: rgb(255, 0, 200);}
+
+.w-300{width: 300px;}
+/* .offcanvas{width: 300px;} */
+.hp-500{height: 500px;}
+
+.br{border-radius: 20px;}

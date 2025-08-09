@@ -1,0 +1,322 @@
+.b {
+  border: 1px solid transparent;
+}
+.b1 {
+  border: 1px solid black;
+}
+.b2 {
+  border: 1px solid #bdbcbc;
+}
+
+.br-0 {
+  border-radius: 0px;
+}
+.br-5 {
+  border-radius: 5px;
+}
+
+.w-100 {
+  width: 100%;
+}
+.wp-330 {
+  width: 330px;
+}
+.wp-250 {
+  width: 250px;
+}
+.wp-60 {
+  width: 60px;
+}
+
+.hp-60 {
+  height: 60px;
+}
+.hp-120 {
+  height: 120px;
+}
+.hp-700 {
+  height: 700px;
+}
+.hp-500 {
+  height: 500px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+.ml-18 {
+  margin-left: 18px;
+}
+.ml-15 {
+  margin-left: 15px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+
+.mr-50 {
+  margin-right: 50px;
+}
+.mr-17 {
+  margin-right: 17px;
+}
+
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.mlr-at {
+  margin-left: auto;
+  margin-right: auto;
+}
+.ta-c {
+  text-align: center;
+}
+
+.bc-t {
+  background-color: transparent;
+}
+.bc-lg {
+  background-color: #f6f6f6;
+}
+.bc-lg2 {
+  background-color: #585858;
+}
+.bc-lwhite {
+  background-color: rgba(253, 253, 253, 0.651);
+  width: 60px;
+  height: 60px;
+}
+
+.ls-1 {
+  letter-spacing: 1px;
+}
+.ls-2 {
+  letter-spacing: 2px;
+}
+.ls-3 {
+  letter-spacing: 3px;
+}
+
+.fw {
+  font-weight: 800;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fs-42 {
+  font-size: 42px;
+}
+.fs-40 {
+  font-size: 40px;
+}
+.fs-17 {
+  font-size: 17px;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-27r {
+  font-size: 2.7rem;
+}
+
+.tc-white {
+  color: white;
+}
+.tc-g {
+  color: #585858;
+}
+.tc-lg {
+  color: #b9b9b9;
+}
+.tc-lg1 {
+  color: #666666;
+}
+.tc-lg2 {
+  color: #777777;
+}
+.tc-lg3 {
+  color: #d4d4d4;
+}
+.tc-t {
+  color: transparent;
+}
+.tc-pink {
+  color: rgb(252, 158, 174);
+}
+
+.hp:hover {
+  color: rgb(252, 158, 174);
+  text-decoration: none;
+}
+.hp1:hover {
+  color: rgb(252, 158, 174);
+}
+
+.pd-0 {
+  padding: 0px;
+}
+.pd-1 {
+  padding: 30px 0px 0px 35px;
+}
+.pd-2 {
+  padding: 0px 0px 35px 5px;
+}
+.pd-3 {
+  padding: 15px 26px 7px 26px;
+  border-radius: 4px;
+}
+.pd-4 {
+  padding: 50px 0px 50px 30px;
+}
+.pd-5 {
+  padding: 20px 0px;
+}
+.pd-6 {
+  padding: 0px 0px 0px 15px;
+}
+.pd-7 {
+  padding: 30px 0px 0px 5px;
+}
+.pd-8 {
+  padding: 60px 0px 96px;
+}
+.pd-9 {
+  padding: 90px 0px 20px 0px;
+}
+.pd-10 {
+  padding: 60px 0px 100px;
+}
+
+.lamp {
+  text-decoration: underline dotted 1px #bdbcbc;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #585858;
+  letter-spacing: 3px;
+}
+.lamp1 {
+  text-decoration: underline dotted 1px #bdbcbc;
+  color: #585858;
+}
+.lamp2 {
+  text-decoration: underline dotted 1px #bdbcbc;
+  color: #777777;
+  font-size: 17px;
+}
+.lamp3 {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #585858;
+  letter-spacing: 3px;
+}
+.lamp4 {
+  text-decoration: underline dotted 1px #bdbcbc;
+  text-align: center;
+  color: #585858;
+  letter-spacing: 3px;
+}
+.lamp4:hover {
+  color: rgb(252, 158, 174);
+}
+.submit {
+  height: 60px;
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px #bdbcbc;
+  background-color: transparent;
+  outline: none;
+}
+.submit1 {
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px #bdbcbc;
+  background-color: transparent;
+  outline: none;
+}
+.submit2 {
+  height: 60px;
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px #bdbcbc;
+  background-color: transparent;
+  outline: none;
+}
+.submit:focus {
+  border-bottom: 2px solid rgb(252, 158, 174);
+}
+
+.logo {
+  width: 80%;
+  height: 35px;
+  border: 1px solid #555;
+  margin-top: 20px;
+  border-radius: 5px;
+  align-self: center;
+}
+
+.hc:hover {
+  cursor: pointer;
+}
+.btn-hv:hover {
+  background-color: rgb(252, 158, 174);
+  border: 1px solid rgb(252, 158, 174);
+  color: white;
+}
+.lgh {
+  color: #6e6e6e;
+  width: 51px;
+  height: 50px;
+  padding: 24px 0px;
+}
+.lgh:hover {
+  cursor: pointer;
+  border: 1px solid rgb(252, 158, 174);
+  color: rgb(252, 158, 174);
+}
+.uld {
+  text-decoration: underline dotted 1px #bdbcbc;
+}
+.uld:hover {
+  text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+  .jas {
+    /* background-color: red; */
+    position: relative;
+    top: 50px;
+    right: 30px;
+  }
+}
+.z {
+  z-index: 1;
+}

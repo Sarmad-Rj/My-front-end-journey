@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="./15-Blog.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <style>
+      .b {
+        border: 1px solid transparent;
+      }
+      .br-0 {
+        border-radius: 0px;
+      }
+      .hp:hover {
+        color: rgb(252, 158, 174);
+        text-decoration: none;
+      }
+      .tc-g {
+        color: #585858;
+      }
+      .tc-white {
+        color: white;
+      }
+      .bc-t {
+        background-color: transparent;
+      }
+      .tc-pink {
+        color: rgb(252, 158, 174);
+      }
+      .offcanvas {
+        --bs-offcanvas-width: 425px;
+        background-color: #585858;
+      }
+      .navbar-toggler {
+        --bs-navbar-toggler-focus-width: 0rem;
+      }
+      .navbar-toggler-icon:hover {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28252, 158, 174, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+      }
+      .ml-50 {
+        margin-left: 50px;
+      }
+      .mt-50 {
+        margin-top: 50px;
+      }
+      .pd-0 {
+        padding: 0px;
+      }
+      .pd-6 {
+        padding: 0px 0px 0px 15px;
+      }
+      .tc-lg3 {
+        color: #d4d4d4;
+      }
+      .lgh {
+        color: #6e6e6e;
+        width: 51px;
+        height: 50px;
+        padding: 24px 0px;
+      }
+      .lgh:hover {
+        cursor: pointer;
+        border: 1px solid rgb(252, 158, 174);
+        color: rgb(252, 158, 174);
+      }
+    </style>
+  </head>
+  <body class="m-0">
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="tc-g ml-50 mt-30">
+          <a class="navbar-brand tc-g hp fs-17 fw jas" href="#"
+            ><i class="fa-solid fa-pen mr-17"></i>B L O G &nbsp; W E B S I T
+            E</a
+          >
+        </div>
+        <button
+          class="navbar-toggler position-fixed"
+          style="
+            top: 18px;
+            right: 19px;
+            border: 1px solid transparent;
+            background-color: rgba(255, 255, 255, 0.699);
+            padding: 10px 15px;
+            z-index: 1;
+          "
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span
+            class="navbar-toggler-icon"
+            style="width: 40px; height: 30px"
+          ></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <button
+            type="button"
+            class="btn-close"
+            style="
+              margin-left: -80px;
+              background-color: transparent;
+              margin-top: 20px;
+            "
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+          <div class="offcanvas-body">
+            <ul
+              class="navbar-nav justify-content-end flex-grow-1 mlr-at wp-330"
+            >
+              <h5
+                class="offcanvas-title tc-white pd-2 fw-700 m-0"
+                id="offcanvasNavbarLabel"
+              >
+                MENU
+              </h5>
+              <li class="nav-item">
+                <a
+                  class="nav-link hp tc-white"
+                  aria-current="page"
+                  href="./15-1-Home.html"
+                  >Home</a
+                >
+                <div class="tc-lg"><hr /></div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hp tc-pink" href="15-2-Blog.html">Blog</a>
+                <div class="tc-lg"><hr /></div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link tc-white hp" href="15-3-About-us.html"
+                  >About</a
+                >
+                <div class="tc-lg"><hr /></div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link tc-white hp" href="15-4-Authors.html"
+                  >Authors</a
+                >
+                <div class="tc-lg"><hr /></div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link tc-white hp" href="15-5-Contact-us.html"
+                  >Contact us</a
+                >
+                <div class="tc-lg"><hr /></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row mt-50">
+        <div class="col-md-1 col-sm-1 col-1">
+          <div class="row">
+            <div class="col-md-6 col-sm-4 col-4"></div>
+            <div class="col-md-6 col-sm-8 col-8">
+              <h2 class="fw-700 fs-40 tc-g">Blog</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-10 col-sm-10 col-10"></div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row mt-50">
+        <div class="col-md-11 col-sm-12 col-12 mlr-at">
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./15-ci4.jpg" class="d-block w-100 br-5" alt="..." />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid pd-8">
+      <div class="row justify-content-center">
+        <div class="col-md-9 col-sm-12 col-12 mt-20">
+          <div class="row">
+            <div class="col-md-1 col-sm-0 col-0"></div>
+            <div class="col-md-11">
+              <div class="row">
+                <div class="col-md-6 col-sm-12 col-12">
+                  <div class="card pic width br-0 b">
+                    <img
+                      src="./15-img1.jpg"
+                      class="card-img-top width br-0"
+                      alt="..."
+                    />
+                    <b class="lamp div1 hp hc mt-10"
+                      >LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING
+                      ELIT.</b
+                    >
+                    <p class="ta-c tc-lg1">John Doe | 12/06/2020 10:30</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12">
+                  <div class="card pic width br-0 b">
+                    <img
+                      src="./15-img2.jpg"
+                      class="card-img-top width br-0"
+                      alt="..."
+                    />
+                    <b class="lamp div1 hp hc mt-10"
+                      >LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING
+                      ELIT.</b
+                    >
+                    <p class="ta-c tc-lg1">John Doe | 12/06/2020 10:30</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-1 col-sm-0 col-0"></div>
+            <div class="col-md-11">
+              <div class="row">
+                <div class="col-md-6 col-sm-12 col-12">
+                  <div class="card pic width br-0 b">
+                    <img
+                      src="./15-img3.jpg"
+                      class="card-img-top width br-0"
+                      alt="..."
+                    />
+                    <b class="lamp div1 hp hc mt-10"
+                      >LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING
+                      ELIT.</b
+                    >
+                    <p class="ta-c tc-lg1">John Doe | 12/06/2020 10:30</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12">
+                  <div class="card pic width br-0 b">
+                    <img
+                      src="./15-img4.jpg"
+                      class="card-img-top width br-0"
+                      alt="..."
+                    />
+                    <b class="lamp div1 hp hc mt-10"
+                      >LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING
+                      ELIT.</b
+                    >
+                    <p class="ta-c tc-lg1">John Doe | 12/06/2020 10:30</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-1 col-sm-0 col-0"></div>
+            <div class="col-md-11">
+              <div class="row">
+                <div class="col-md-6 col-sm-12 col-12">
+                  <div class="card pic width br-0 b">
+                    <img
+                      src="./15-img5.jpg"
+                      class="card-img-top width br-0"
+                      alt="..."
+                    />
+                    <b class="lamp div1 hp hc mt-10"
+                      >LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING
+                      ELIT.</b
+                    >
+                    <p class="ta-c tc-lg1">John Doe | 12/06/2020 10:30</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12">
+                  <div class="card pic width br-0 b">
+                    <img
+                      src="./15-img6.jpg"
+                      class="card-img-top width br-0"
+                      alt="..."
+                    />
+                    <b class="lamp div1 hp hc mt-10"
+                      >LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING
+                      ELIT.</b
+                    >
+                    <p class="ta-c tc-lg1">John Doe | 12/06/2020 10:30</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-12 col-12 mt-20">
+          <p class="tc-g ls-1"><b>BLOG SEARCH</b></p>
+          <div class="row">
+            <div class="col-md-10 col-sm-10 col-10 mt-30 pd-6">
+              <input type="name" class="submit" placeholder="Search" />
+            </div>
+            <div class="col-md-2 col-sm-2 col-2 pd-0">
+              <i class="fa-solid fa-magnifying-glass pd-5 lamp1 hp"></i>
+            </div>
+            <div class="col-md-12 col-sm-12 col-12">
+              <p class="lampp lamp1 hp pd-7">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+              <p class="lampp lamp1 hp pd-7">
+                Non, magni, sequi. Explicabo illum quas debitis ut.
+              </p>
+              <p class="lampp lamp1 hp pd-7">
+                Vatae expedita deleniti optio ex adipisci .
+              </p>
+              <p class="lampp lamp1 hp pd-7">
+                Soluta non modi dolorem voluptates dolor laborum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bc-lg">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-12">
+          <div class="row">
+            <div class="col-md-1 col-sm-1 col-1 pd-0"></div>
+            <div class="col-md-11 col-sm-11 col-11 pd-9">
+              <i class="fa-brands fa-twitter fa-lg b2 br-5 ta-c lgh"></i>
+              <i
+                class="fa-brands fa-facebook-f fa-lg b2 br-5 ta-c lgh ml-15"
+              ></i>
+              <i
+                class="fa-brands fa-instagram fa-lg b2 br-5 ta-c lgh ml-15"
+              ></i>
+              <i
+                class="fa-brands fa-linkedin-in fa-lg b2 br-5 ta-c lgh ml-15"
+              ></i>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 .col-sm-12 .col-0"></div>
+            <div class="col-md-10 col-sm-10 col-10">
+              <p class="tc-lg3 ml-50 pd-4 fs-13">
+                Copyright © 2020 Company Name &nbsp; | &nbsp; Template by:
+                <span class="lamp1 hp hc tc-lg3 fs-14">PHPJabbers.com</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

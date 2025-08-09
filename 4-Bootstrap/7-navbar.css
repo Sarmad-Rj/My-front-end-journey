@@ -1,0 +1,19 @@
+.mt-50{margin-top: 50px;}
+.mt-10{margin-top: 12px;}
+
+
+
+.ml-60{margin-left: 50px;}
+
+.bc-a{background-color: aqua;}
+.bc-b{background-color: rgb(43, 255, 0);}
+.bc-c{background-color: rgb(255, 0, 200);}
+.fs{font-size: 40px;}
+
+/* .pd{padding: 0px 10px;} */
+.hp-2000{height: 2000px;}
+.ta-c{text-align: center;}
+.mlr-at{
+    margin-left: auto;
+    margin-right: auto;
+}
