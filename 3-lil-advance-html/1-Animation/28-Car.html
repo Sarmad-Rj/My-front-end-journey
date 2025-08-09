@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <title>Car</title>
+        <style>
+            .b{border: 1px solid transparent;}
+            .b1{border: 1px solid blue;}
+   
+            .w-100{width: 100%;}
+            .w-97{width: 97%;}
+            .w-90{width: 90%;}
+            .w-80{width: 80%;}
+            .w-75{width: 75%;}
+            .w-50{width: 50%;}
+            .w-45{width: 45%;}
+            .w-40{width: 40%;}
+            .w-10{width: 10%;}
+            .w-0{width: 0%;}
+
+            .hp-500{height: 500px;}
+            .hp-150{height: 150px;}
+            .hp-145{height: 145px;}
+            .hp-130{height: 130px;}
+            .hp-125{height: 125px;}
+            .hp-115{height: 115px;}
+            .hp-110{height: 110px;}
+            .hp-100{height: 100px;}
+            .hp-90{height: 90px;}
+            .hp-20{height: 20px;}
+            .hp-32{height: 32px;}
+
+            .wp-125{width: 125px;}
+            .wp-100{width: 100px;}
+            .wp-20{width: 20px;}
+
+            .fl{float: left;}
+            .fr{float: right;}
+            .mlr-at{
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .ml-5{margin-left: 5px;}
+            .ml-15{margin-left: 15px;}
+            .ml-12{margin-left: 11px;}
+            .ml-35{margin-left: 35px;}
+
+            .mt-15{margin-top: 15px;}
+            .mt-5{margin-top: 5px;}
+            .mt-12{margin-top: 11px;}
+            .mt-39{margin-top: 39px;}
+            .mt-50{margin-top: 50px;}
+
+            .mr-35{margin-right: 35px;}
+            .mr-5{margin-right: 5px;}
+
+            .bc-red{ background-color: red;}
+            .bc-black{ background-color: black;}
+            .bc-purple{background-color: rgb(223, 153, 255);}
+            .bc-white{background-color: white;}
+
+            .br{border-radius: 100%;}
+            .br1{border-top-right-radius: 100%;
+                border-top-left-radius: 13px;
+            }
+            .br2{border-radius: 100px 100px 35px 35px;}
+            .br3{border-radius: 3px 100% 3px 3px;}
+
+
+            .move-1{
+                position: absolute;
+                animation: mv1 5s infinite;
+            }
+            .move-2{
+                position: absolute;
+                animation: mv2 5s infinite;
+            }
+            .move-3{
+                position: absolute;
+                animation: mv2 5s infinite;
+            }
+
+            @keyframes mv1{
+                0%{
+                    left: 0px;
+                    top: 0px;
+                }
+                50%{
+                    left: 750px;
+                    top: 0px;
+                }
+                100%{
+                    left: 0px;
+                    top: 0px;
+                }
+            }
+            @keyframes mv2 {
+                0%{
+                    transform: rotate(0deg);
+                }
+                50%{
+                    transform: rotate(360deg);
+                }
+                100%{
+                    transform: rotate(0deg);
+                }
+            }
+            @keyframes mv3 {
+                0%{
+                    transform: rotate(0deg);
+                }
+                50%{
+                    transform: rotate(360deg);
+                }
+                100%{
+                    transform: rotate(0deg);
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="b w-50 hp-500  move-1">
+            <div class="b w-45 hp-130 bc-red mlr-at br1">
+                <div class="b bc-black w-90 hp-115 ml-15 mt-15 br3">
+                    <div class="bc-red w-10 hp-110 mlr-at mt-5"></div>
+                </div>
+            </div>
+            <div class="b w-75 hp-145 bc-red mlr-at br2">
+               <div class="w-80 hp-130 mt-39 mlr-at">
+                <div class="wp-125 hp-125 bc-black br fl mt-39 move-2">
+                    <div class="b wp-100 hp-100 bc-purple br mt-12 ml-12">
+                        <div class="b w-97 hp-32">
+                            <div class="wp-20 hp-20 br bc-white mlr-at mt-5"></div>
+                        </div>
+                        <div class="b w-97 hp-32">
+                            <div class="wp-20 hp-20 br bc-white fl mt-5 ml-5"></div>
+                            <div class="wp-20 hp-20 br bc-white fr mt-5 mr-5"></div>
+                        </div>
+                        <div class="b w-97 hp-32">
+                            <div class="wp-20 hp-20 br bc-white mlr-at mt-5"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wp-125 hp-125 bc-black br fr mt-39">
+                    <div class="b wp-100 hp-100 bc-purple br mt-12 ml-12 move-3">
+                        <div class="b w-97 hp-32">
+                            <div class="wp-20 hp-20 br bc-white mlr-at mt-5"></div>
+                        </div>
+                        <div class="b w-97 hp-32">
+                            <div class="wp-20 hp-20 br bc-white fl mt-5 ml-5"></div>
+                            <div class="wp-20 hp-20 br bc-white fr mt-5 mr-5"></div>
+                        </div>
+                        <div class="b w-97 hp-32">
+                            <div class="wp-20 hp-20 br bc-white mlr-at mt-5"></div>
+                        </div>
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </body>
+</html>
+
